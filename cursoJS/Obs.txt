@@ -1,0 +1,26 @@
+==================Identificadores==================
+	* Podem começar com letra, $ ou _
+	* Não podem começar com números
+	* É possível usar letras ou números	
+	* É possível usar acentos e símbolos
+	* Não podem conter espaços
+	* Não podem ser palavras reservadas
+===================================================
+	* Number => números inteiros e reais
+	* String => conjunto de caracteres compostos com traços e pontos
+	* Boolean => valores booleanos
+===================================================
+	Number.parseInt(n) -> convertendo para número inteiro
+	Number.parseFloat(n) -> convertendo para ponto flutuante
+	Number(n) -> trabalha com ambos anteriores
+	n.toString() -> convertendo para string
+	String(n) -> transforma em string
+===================================================
+	Template String
+	´${nome da variável}´
+	s.length -> quantos caracteres a string tem
+	s.toUpperCase() -> transforma o texto em caixa alta
+	s.toLowerCase() -> transforma o texto em caixa baixa
+	n.toFixed(2) -> colocar 2 casa depois da virgula
+	n.toFixed(2).replace('.',',') -> transformando o ponto em virgula
+	n1.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'}) -> Valor passado para moeda em real

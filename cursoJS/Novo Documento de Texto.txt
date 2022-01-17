@@ -1,0 +1,12 @@
+==================Identificadores==================
+	* Podem começar com letra, $ ou _
+	* Não podem começar com números
+	* É possível usar letras ou números	
+	* É possível usar acentos e símbolos
+	* Não podem conter espaços
+	* Não podem ser palavras reservadas
+===================================================
+	* Number => números inteiros e reais
+	* String => conjunto de caracteres compostos com traços e pontos
+	* Boolean => valores booleanos
+===================================================

@@ -1,0 +1,14 @@
+============================DOM===============================	
+	* Document Object Model
+		Window: alguns objetos dentro de window
+			* Location
+			* Document -> html ->(head;body)
+			* History
+==============================================================
+===================Selecionando pelo seletor==================
+	Por marca
+		* getElementsByTagName()
+	Por ID
+	Por Nome
+	Por Classe
+	Por Seletor

@@ -1,0 +1,26 @@
+===========================Aritméticos===========================
+	+ -> Soma
+	/ -> Divisão (real)
+	* -> Multiplicação
+	- -> Subtração
+	% -> Divisão (inteira)
+	** -> Exponencial
+=================================================================
+=========================Precedencia=============================
+A ordem de precedencia dos operadores aritméticos são:
+	()
+	**
+	* / %
+	+ -
+=========================Relacional==============================
+	> -> Maior
+	< -> Menor
+	>= -> Maior igual
+	<= -> Menor igual
+	== -> Igual
+	!= -> Diferente
+================================================================
+	!  -> negação
+	&& -> conjunção (os dois precisa ser iguais)
+	|| -> disjunção (apenas 1 precisa ser verdadeiro)
+================================================================

@@ -1,0 +1,23 @@
+------------------Módulo 01----------------------
+	O que JS é capaz de fazer?
+	Dicas de aprendizagem
+	JS versus ECMAScript
+	Requisitos de Software
+	Primeiros passo em Js
+--------------------Client x Servidor--------------------
+	Cliente: dispositivo que solicita acesso a informações
+		* JavaScript funciona melhor na parte do cliente
+	Servidor: fornece as informações solicitadas pelo cliente
+	Navegador: é o local que realiza a iteração entre cliente e servidor
+	Website (lado do cliente): composto por 3 tecnologias importante, sendo elas: 
+		* HTML: Responsável por produzir o conteúdo, ilustrações e mídias (conteúdo)
+		* CSS: Responsável por formatar todo o conteúdo
+		* JavaScript: Responsável por realizar a segurança, controlar dados, etc.
+---------------------Empresas que utilizam JS------------
+	* Google
+	* Youtube
+	* Linkedin
+	* Netflix
+	* Facebook
+-------------------------------------------------
+-------------------------------------------------
