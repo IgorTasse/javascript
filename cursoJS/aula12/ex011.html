@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSE</title>
+</head>
+<body>
+    <h1>Idade para votar</h1>
+    Idade: <input type="number" name="txtvoto" id="txtvoto" > anos
+    <input type="button" value="Buscar" onclick="votar()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function votar(){
+            var txtvoto = window.document.querySelector('input#txtvoto')
+            var res = window.document.querySelector('div#resultado')
+            var idade = Number(txtvoto.value)
+            res.innerHTML += `<p>Sua idade é <strong>${idade}</strong> anos</p>`
+            if (idade < 16) {
+                res.innerHTML += "Você não vota!"
+            }
+            else if(idade < 19 || idade > 65){
+                res.innerHTML += "Seu voto é opcional!"
+            }
+            else{
+                res.innerHTML += "Seu voto é obrigatório!"
+            }
+        }
+    </script>
+</body>
+</html>
